@@ -136,6 +136,7 @@ app.get('/cmt',(req,res)=>{
     })
 })
 
-app.listen(3000,()=>{
+const POST = process.env.PORT || 3000
+app.listen(PORT,()=>{
     console.log("server running")
 })
